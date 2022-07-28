@@ -3,4 +3,6 @@
 <div align="center"> 
 <h1>Demonstration</h1>
 <img src="https://synthranger.github.io/VelWatch/Demo.gif"/>
+
+(VelWatch isn't being used for the mag when the Dummy's head is red)
 </div>
