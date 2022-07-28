@@ -21,15 +21,6 @@ Updates:
 
 
 Written By: Odysseus_Orien / Synthranger#1764 - 2022/02/05
-
-API:
-  local VelWatch = require(this.module)
-  local newVelWatcher = VelWatch.new(true) --set to true if you want to see the velocity in a gui
-  newVelWatcher:SetObject(AnimatedBasePart)
-  newVelWatcher:Start()
-  print(newVelWatcher.Velocity)
-  print(newVelWatcher.RotVelocity)
-
 ]]
 
 --[=[
@@ -73,10 +64,10 @@ export type VelWatch<T> = {
     __velGui: VelocityGui;
 
     -- METHODS
-	SetObject: (Object: T | nil) -> ();
-	Start: (objToMonitor: T | nil) -> ();
-	Stop: () -> ();
-	Destroy: () -> ();
+	SetObject: (self: VelWatch<T>, object: T | nil) -> ();
+	Start: (self: VelWatch<T>, object: T | nil) -> ();
+	Stop: (self: VelWatch<T>) -> ();
+	Destroy: (self: VelWatch<T>) -> ();
 }
 
 local RunService = game:GetService("RunService")
