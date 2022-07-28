@@ -1,0 +1,20 @@
+title = "VelWatch"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Animated Part Velocity"
+description = "Easily get an animated part's velocity"
+
+[[home.features]]
+title = "Compatible with Attachments"
+description = "Watch an attachment's velocity using this module"
+
+[[home.features]]
+title = "Typechecked for Autocomplete"
+description = "For your ease of use"
+
+[docusaurus]
+tagline = "Made for monitoring BaseParts and Attachments velocities."
