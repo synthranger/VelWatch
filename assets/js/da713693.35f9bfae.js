@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[449],{97868:function(e){e.exports=JSON.parse('{"sourceUrl":"https://github.com/Synthranger/VelWatch/blob/master","baseUrl":"/VelWatch/","classOrder":[],"apiCategories":[]}')}}]);
